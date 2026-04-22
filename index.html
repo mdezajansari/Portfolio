@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <div class="container">
+            <div class="navbar" style="position:relative;">
+
+                <div class="logo-container">
+                    <img src="/images/userAsset/Mlogo.jpg" class="logo">
+                    <div class="logo-text">d Ezaj</div>
+                </div>
+
+                <div class="nav-items">
+                    <div><a href="#projects">Projects</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#contactme">Contact Me</a></div>
+                </div>
+
+                <!-- Hamburger (mobile only) -->
+                <button class="hamburger" id="hamburger" aria-label="Open menu">
+                    <span></span><span></span><span></span>
+                </button>
+
+            </div>
+
+            <!-- Mobile nav menu -->
+            <nav class="mobile-nav" id="mobileNav">
+                <a href="#projects" class="mobile-nav-link">Projects</a>
+                <a href="#skills" class="mobile-nav-link">Skills</a>
+                <a href="#contactme" class="mobile-nav-link">Contact Me</a>
+            </nav>
+
+            <div class="hero-section container">
+
+                <div class="absolute faded-text">Md Ezaj</div>
+
+                <div class="hero-section-left">
+
+                    <div class="hero-section-heading">Hi! Md Ezaj</div>
+
+                    <div class="hero-section-heading hero-section-sub-heading">
+                        I am a <span class="role"></span>
+                    </div>
+
+                    <div class="hero-section-description">
+                        I’m a Aspiring Software Developer and here is my portfolio website. Here you’ll
+                        learn about my journey as a Software Developer.
+                    </div>
+
+                    <a href="https://www.linkedin.com/in/ezaj1/" target="_blank">
+                        <div class="btn" id="btn-top">Hire Me</div>
+                    </a>
+                </div> <!-- Hero-section-left div -->
+
+                <div class="hero-section-right">
+                    <div class="absolute icons icon-dots">
+                        <img src="/images/userAsset/dots.png" alt="">
+                    </div>
+                    <div class="absolute icons icon-cube">
+                        <img src="/images/userAsset/cube.png" alt="">
+                    </div>
+                    <div class="absolute icons icon-circle">
+                        <img src="/images/userAsset/circle.png" alt="">
+                    </div>
+                    <div class="absolute icons icon-zigzag">
+                        <img src="/images/userAsset/zigzags.png" alt="">
+                    </div>
+                    <div class="absolute icons icon-plus">
+                        <img src="/images/userAsset/plus.png" alt="">
+                    </div>
+                    <div class="user-image">
+                        <img src="/images/userAsset/photo.jpg" alt="" width="345" height="400">
+                    </div>
+
+                </div> <!-- Hero-section-right div -->
+                <div class="btn" id="btn-bottom">Hire me</div>
+
+            </div> <!-- Hero-section div End-->
+        </div> <!-- container div End-->
+
+        <!-- Projects Section -->
+        <div class="project-section" id="projects">
+
+            <h2 class="page-header">Projects</h2>
+
+            <div class="project-container">
+
+                <div class="project-card" id="project1">
+                    <div class="project-number project-number-left">01</div>
+                    <div class="project-content project-content-left">
+
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="/images/stack/HTML.png" alt="">
+                            <img class="project-skill" src="/images/stack/Tailwind.png" alt="">
+                            <img class="project-skill" src="/images/stack/Javascript.svg" alt="">
+                            <img class="project-skill" src="/images/stack/react2.png" alt="">
+                            <img class="project-skill" src="/images/stack/springboot.png" alt="">
+                            <img class="project-skill" src="/images/stack/Mysql.png" alt="">
+                            <img class="project-skill" src="/images/stack/netlify.png" alt="">
+                            <img class="project-skill" src="/images/stack/Github.svg" alt="">
+                        </div>
+
+                        <h2 class="project-heading">Ecommerce</h2>
+
+                        <div class="project-subheading">
+                            Full-stack eCommerce web app built with React (Vite), Spring Boot, and MySQL.
+                            Implements JWT authentication, product management, and a responsive UI.
+                        </div>
+
+                        <div class="btn-grp">
+                            <div class="btn btn-project" data-project="ecommerce">Read More</div>
+                            <a href="https://github.com/mdezajansari/Ecommerce"> <!--add github link her -->
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="https://shopcherry.netlify.app/"> <!--add project link her -->
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="project-card" id="project2">
+                    <div class="project-number  project-number-right">02</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="/images/stack/HTML.png" alt="">
+                            <img class="project-skill" src="/images/stack/CSS.png" alt="">
+                            <img class="project-skill" src="/images/stack/Tailwind.png" alt="">
+                            <img class="project-skill" src="/images/stack/Javascript.svg" alt="">
+                            <img class="project-skill" src="/images/stack/react2.png" alt="">
+                            <img class="project-skill" src="/images/stack/springboot.png" alt="">
+                            <img class="project-skill" src="/images/stack/Mysql.png" alt="">
+                            <img class="project-skill" src="/images/stack/netlify.png" alt="">
+
+                            <img class="project-skill" src="/images/stack/Vercel.svg" alt="">
+                        </div>
+
+                        <h2 class="project-heading">Employee Management System</h2>
+
+                        <div class="project-subheading">
+                            An end-to-end full-stack solution for managing departments,
+                            employee life cycles, and administrative workflows.
+                        </div>
+
+                        <div class="btn-grp">
+                            <div class="btn btn-project" data-project="ems">Read More</div>
+                            <a href="https://github.com/mdezajansari/EmployeeManagementSystem">
+                                <!--add github link her -->
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="https://ems-ezaj.netlify.app/login"> <!--add project link her -->
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="project-card" id="project3">
+                    <div class="project-number  project-number-left">03</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="/images/stack/HTML.png" alt="">
+                            <img class="project-skill" src="/images/stack/CSS.png" alt="">
+                            <img class="project-skill" src="/images/stack/Javascript.svg" alt="">
+                            <img class="project-skill" src="/images/stack/Github.svg" alt="">
+
+                        </div>
+
+                        <h2 class="project-heading">Heritage Hub</h2>
+
+                        <div class="project-subheading">
+                            A responsive web app showcasing UNESCO heritage sites and popular travel
+                            destinations with an intuitive UI, search functionality, and dark mode support.
+                        </div>
+
+                        <div class="btn-grp">
+                            <div class="btn btn-project" data-project="heritage">Read More</div>
+                            <a href="https://github.com/mdezajansari/HeritageHub"> <!--add github link her -->
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="https://mdezajansari.github.io/HeritageHub/"> <!--add project link her -->
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="project-card" id="project4">
+                    <div class="project-number  project-number-right">04</div>
+                    <div class="project-content project-content-right">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="/images/stack/HTML.png" alt="">
+                            <img class="project-skill" src="/images/stack/CSS.png" alt="">
+                            <img class="project-skill" src="/images/stack/Javascript.svg" alt="">
+                            <img class="project-skill" src="/images/stack/Tailwind.png" alt="">
+                            <img class="project-skill" src="/images/stack/Github.svg" alt="">
+                        </div>
+
+                        <h2 class="project-heading">Git Scout</h2>
+
+                        <div class="project-subheading">
+                            A responsive web app to search GitHub users and view detailed profile information instantly.
+                        </div>
+
+                        <div class="btn-grp">
+                            <div class="btn btn-project" data-project="gitscout">Read More</div>
+                            <a href="https://github.com/mdezajansari/Git-Scout"> <!--add github link her -->
+                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="https://mdezajansari.github.io/Git-Scout/"> <!--add project link her -->
+                                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- Projects Section End-->
+
+        <!-- ------------------------------------------------------------ -->
+
+        <!-- Skills section -->
+
+        <div id="skills" class="container skills-container">
+
+            <div class="skill-fade-text">Skills</div>
+
+            <div class="skill-container-left">
+                <h2 class="skill-headings">
+                    <span class="caps">M</span>e and
+                    <br>
+                    MyTech Stack
+                </h2>
+
+                <div class="skill-subheading">
+                    <p>
+                        Hi, I’m Md Ezaj, a Full Stack Web Developer and AI enthusiast.
+                        I have a strong foundation in Java, HTML, CSS, JavaScript, React, Spring Boot,
+                        and MySQL. I specialize in building scalable and responsive web applications using
+                        REST APIs, and I am currently enhancing my backend expertise with Spring Security and JWT-based
+                        authentication.
+                    </p>
+                    <p>
+                        As a Computer Science graduate (2025), I focus on developing secure, high-performance
+                        applications with clean architecture and modern UI/UX. I enjoy transforming ideas into
+                        real-world solutions through efficient and maintainable code.
+                    </p>
+                    <p>
+                        I am passionate about learning, experimenting, and continuously improving my skills to build
+                        reliable, user-friendly, and production-ready web applications.
+                    </p>
+                </div>
+            </div>
+
+            <div class="skill-container-right">
+                <img src="./images/userAsset/blob vector.png" class="blob-style" alt="" />
+
+                <img src="./images/stack/HTML.png" alt="" class="skills-logo" />
+                <img src="./images/stack/CSS.png" alt="" class="skills-logo" />
+                <img src="./images/stack/Javascript.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/React.png" alt="" class="skills-logo" />
+                <img src="./images/stack/NodeJs.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Next.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Redux.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Tailwind.png" alt="" class="skills-logo" />
+                <img src="./images/stack/Bootstrap.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/springboot.png" alt="" class="skills-logo" />
+                <img src="./images/stack/Express.png" alt="" class="skills-logo" />
+                <img src="./images/stack/Git.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Github.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Graphql.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/MongoDB.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Vercel.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/ChartJs.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Bash.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/Docker.svg" alt="" class="skills-logo" />
+                <img src="./images/stack/K8s.svg" alt="" class="skills-logo" />
+            </div>
+
+        </div>
+
+        <!-- Contact us form -->
+        <div class="contactus-container" id="contactme">
+            <div class="container">
+
+                <h1 class="contactus-heading">Contact Me</h1>
+
+                <h3 class="contactus-subheading">Questions, thoughts, or just want to say hello?</h3>
+
+                <div class="contactus-form-container">
+                    <form class="form" id="">
+                        <div class="formfeild-container">
+                            <input class="formfeild" type="text" name="name" id="" placeholder="Enter your name">
+
+                            <input class="formfeild" type="email" name="email" id=""
+                                placeholder="Enter your email address">
+
+                            <input class="formfeild" type="text" name="subject" id="" placeholder="Enter your subject">
+
+                            <textarea name="message" cols="30" rows="10" placeholder="Enter your message"
+                                class="formfeild formfeild-textarea"></textarea>
+                        </div>
+
+                        <div>
+                            <button type="submit" class="btn" id="submit-btn">
+                                Send Message <i class="submit-icon fa-solid fa-paper-plane"></i>
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="footer-faded-text">Md Ezaj</div>
+
+                    <div class="link-wrapper">
+                        <div>
+                            <a href="#projects">Projects</a>
+                        </div>
+                        <div>
+                            <a href="#skills">Skills</a>
+                        </div>
+                        <div>
+                            <a href="#contactme">Contact Me</a>
+                        </div>
+                    </div>
+
+                    <div class="icon-wrapper">
+                        <a href="https://www.linkedin.com/in/ezaj1/" target="_blank"><i
+                                class="fa-brands fa-linkedin icon"></i></a>
+                        <a href="https://github.com/mdezajansari" target="_blank"><i
+                                class="fa-brands fa-github icon"></i></a>
+                        <a href="https://x.com/Md_Ezaj_" target="_blank"><i class="fa-brands fa-twitter icon"></i></a>
+                        <a href="https://www.instagram.com/md_ezaj_/?hl=en" target="_blank"><i
+                                class="fa-brands fa-instagram icon"></i> </a>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mdezajansari123@gmail.com"
+                            target="_blank"><i class="fa-regular fa-envelope icon"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div> <!-- Wrapper div End-->
+
+    <!-- Project Modal -->
+    <div class="modal-overlay" id="projectModal">
+        <div class="modal-card">
+            <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+            <div class="modal-header">
+                <div class="modal-tech-stack" id="modalTechStack"></div>
+                <span class="modal-tag" id="modalTag"></span>
+            </div>
+            <h2 class="modal-title" id="modalTitle"></h2>
+            <p class="modal-description" id="modalDescription"></p>
+            <ul class="modal-features" id="modalFeatures"></ul>
+            <div class="modal-actions">
+                <a class="modal-btn modal-btn-github" id="modalGithub" href="#" target="_blank">
+                    <i class="fa-brands fa-github"></i> View on GitHub
+                </a>
+                <a class="modal-btn modal-btn-live" id="modalLive" href="#" target="_blank">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "Full Stack Developer",
+                "Web Developer",
+                "AI Enthusiast",
+                "Backend Developer",
+                "Coder",
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+        });
+    </script>
+    <script src="js.js"></script>
+
+</body>
+
+</html>
