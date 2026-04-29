@@ -131,8 +131,8 @@ a {
   box-shadow: 0 8px 24px rgba(0,0,0,0.12);
   position: absolute;
   top: 100%;
-  left: 0;
-  right: 0;
+  left: -1rem;
+  right: -1rem;
   z-index: 150;
   overflow: hidden;
   max-height: 0;
@@ -207,7 +207,7 @@ a {
   font-weight: 800;
 }
 
-.herosection-sub-heading {
+.hero-section-sub-heading {
   font-size: 45px;
   line-height: 45px;
 }
