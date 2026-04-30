@@ -59,6 +59,34 @@ const projects = {
     live: "https://ems-ezaj.netlify.app/",
   },
 
+  weather: {
+    title: "Weather App",
+    tag: "Frontend",
+    description:
+      "A responsive weather application built using HTML, CSS, and JavaScript, " +
+      "that fetches real-time weather data from the OpenWeather API." + 
+      "It displays current weather conditions, a 5-day forecast, supports auto-detecting, " + 
+      "user location, and includes a dark/light mode toggle for better user experience.",
+    features: [
+      "Search weather by city name",
+      "Auto-detect user location (Geolocation API)",
+      "Displays temperature, humidity, wind speed, clouds, and visibility",
+      "5-day weather forecast",
+      "Recent city search history",
+      "Dark mode toggle with persistent preference",
+      "Responsive design optimised for mobile & desktop",
+      "Built with pure HTML, CSS & vanilla JavaScript",
+    ],
+    tech: [
+      "/images/stack/HTML.png",
+      "/images/stack/CSS.png",
+      "/images/stack/Javascript.svg",
+      "/images/stack/Github.svg",
+    ],
+    github: "https://github.com/mdezajansari/Weather-App",
+    live: "https://ezaj-weather-app.netlify.app/",
+  },
+
   heritage: {
     title: "Heritage Hub",
     tag: "Frontend",

@@ -595,12 +595,17 @@ a {
   background-image: url(./images/projects/EMS.png);
 }
 #project3 {
-  background-image: url(./images/projects/HeritageHub.png);
+  background-image: url(./images/projects/weather.png);
 }
 #project4 {
   margin-left: 120px;
+  background-image: url(./images/projects/HeritageHub.png);
+}
+#project5 {
+  margin-right: 120px;
   background-image: url(./images/projects/GS.png);
 }
+
 /* Media Queries */
 
 @media (max-width: 1300px) {
@@ -652,9 +657,7 @@ a {
   #project2 {
     margin-left: 0;
   }
-  #project4 {
-    margin-left: 0;
-  }
+  
   .project-skill {
     width: 30px;
   }
