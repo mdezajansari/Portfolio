@@ -56,7 +56,7 @@ const projects = {
       "/images/stack/netlify.png",
     ],
     github: "https://github.com/mdezajansari/EmployeeManagementSystem",
-    live: "https://ems-ezaj.netlify.app/login",
+    live: "https://ems-ezaj.netlify.app/",
   },
 
   heritage: {
@@ -80,8 +80,8 @@ const projects = {
       "/images/stack/Javascript.svg",
       "/images/stack/Github.svg",
     ],
-    github: "",
-    live: "",
+    github: "https://github.com/mdezajansari/HeritageHub",
+    live: "https://mdezajansari.github.io/HeritageHub/",
   },
 
   gitscout: {
@@ -110,6 +110,8 @@ const projects = {
     live: "https://mdezajansari.github.io/Git-Scout/",
   },
 };
+
+// project section end here
 
 // ── DOM refs ──────────────────────────────────────────────────
 const overlay     = document.getElementById("projectModal");
