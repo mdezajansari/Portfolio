@@ -654,8 +654,12 @@ a {
   .project-skills-container {
     max-width: 100%;
   }
-  #project2 {
+  #project2,
+  #project4 {
     margin-left: 0;
+  }
+  #project5 {
+    margin-right: 0;
   }
   
   .project-skill {
